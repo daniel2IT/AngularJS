@@ -3,7 +3,7 @@
 ## AngularJS controllers control the data of AngularJS applications.
 ## AngularJS controllers are regular JavaScript Objects.
 
-<html ng-app='app'> -> Это значит, что наше приложение Angular будет называться app и все сущности мы будем привязывать к нему.
+ -> <html ng-app='app'> Это значит, что наше приложение Angular будет называться app и все сущности мы будем привязывать к нему.
 
 Кроме Angular у меня подключен файл main.js.
 
