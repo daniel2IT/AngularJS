@@ -1,13 +1,16 @@
 # Date binding
-Date binding is one of the strengths of AngularJS. 
-It allows you to bind a template to application data using
- {{double curly braces}}
-In this part, I'll write hello world in AngularJS.
+How can controllers communicate with each other?
+In this tutorial, i'll take a look at what factories are and how
+to store data with them and 
+transfer them between AngularJS controllers.
 
+Kartais reikalaujama kai mes darome tam tikra aplikacija,
+kad kai kurie panasus duomenys, turetu tokias pat reiksmes.
 
-Дата биндинг это одна из сильных сторон AngularJS. 
-Он позволяет связывать шаблон с данными приложения с помощью
-{{двойных фигурных скобок}}.
+Как контроллеры могут обмениваться данными между собой?
+В этом уроке мы разберем что такое фабрики и как 
+с их помощью хранить данные и передавать их между контроллерами
+AngularJS.
 
 # General
 
