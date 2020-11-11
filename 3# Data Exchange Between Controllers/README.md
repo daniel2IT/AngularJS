@@ -16,8 +16,17 @@ AngularJS.
 
 
  ```html
+ng-controller='firstController'
+ng-controller='secondController' <!--Kiekvienas kontroleris atskirai uzvadintas-->
 
+<input type='text' ng-model='myFactoryFirst.helloImFactory'>
+<input type='text' ng-model='myFactoryFirst.helloImFactory'>  <!--Kaip matome vienas tas pats inputas, su tokiu paciu MyFactoryFirst ir iskviecianciu metodu helloImFactory, leido panaudoti mum ta sinchronu, pakeitima -->
+```
+
+ ```javascript
+app.controller('firstController', function($scope, myFactory)  /* Reikejo dadeti ta myFactory kaip atskira tokia klase, kad buvo inicializuota, matomam, tane kontrolerije */
+
+$scope.myFactoryFirst = myFactory;  /*myFactoryFirst  - bet kaip galejo buti uzvadinta, toliau bus naudojama Sablone.. $scope visada naudojamas, kad butu butent MATOMA musu sablone ... bei = myFactory , tiesiog paina ja, kuri buvo aprasyta virs    */
 ```
 ![Test Image 3](img/1.png)
 
-# Download
