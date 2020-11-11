@@ -1,6 +1,6 @@
 # AngularJS
 
-![AngularJS](https://i1.wp.com/storage.googleapis.com/blog-images-backup/1*GmMtKznzJ1dS8sSzxzR3ow.png?ssl=1
+![AngularJS](https://i1.wp.com/storage.googleapis.com/blog-images-backup/1*GmMtKznzJ1dS8sSzxzR3ow.png?ssl=1)
 
 #### AngularJS is a very powerful JavaScript Framework. It is used in Single Page Application (SPA) projects. It extends HTML DOM with additional attributes and makes it more responsive to user actions. 
 
