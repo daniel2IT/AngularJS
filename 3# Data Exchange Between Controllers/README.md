@@ -8,7 +8,7 @@ Kartais reikalaujama kai mes darome tam tikra aplikacija,
 kad kai kurie panasus duomenys, turetu tokias pat reiksmes.
 
 Как контроллеры могут обмениваться данными между собой?
-В этом уроке мы разберем что такое фабрики и как 
+В этом я разобрал что такое фабрики и как 
 с их помощью хранить данные и передавать их между контроллерами
 AngularJS.
 
