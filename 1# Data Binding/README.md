@@ -8,3 +8,9 @@ In this part, I'll write hello world in AngularJS.
 Дата биндинг это одна из сильных сторон AngularJS. 
 Он позволяет связывать шаблон с данными приложения с помощью
 {{двойных фигурных скобок}}.
+
+ ![Test Image 3](.../Download.png)
+ 
+  ![Test Image 3](.../Download2.png)
+  
+   ![Test Image 3](.../Download3.png)
