@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+</head>
+  <body>
+    <div ng-app>
+
+   	   {{1+1}} <br>
+   	   {{"Hello" + "World"}} <br>
+   	   	<!--ng-model ir jame kintamasis kuris bus subindintas(priristas)-->
+   	   		<!--Two-way Binding-->
+   	   <input type="text" ng-model="hello"> <br>
+
+   	    {{hello + " world"}} <br>
+   	    
+				<!--Vienkartinumas-->
+   	    <input type="text" ng-model="hello"> <br>
+
+    </div>
+  </body>
+</html>
