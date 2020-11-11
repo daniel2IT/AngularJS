@@ -1,0 +1,8 @@
+Controllers are one of the essential parts of any Angular application.
+They separate data display and application logic.
+In this tutorial i will know how to create controllers and what
+is $ scope.
+
+Контроллеры это одна из важных частей любого Angular приложения.
+Они разделяют отображение данных и логику приложения. 
+# как создавать контроллеры и что такое $scope.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='app'> <!--Musu aplikacija vadinsis app ir visus kitus parametrus mes siesim su juom-->
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+  <body>
+  <!-- Pirmas -->
+
+    <!--Sukuriam kontroleri
+      sukuriamas new-scope , kai inicijuojamas ng-controller, kuriame galima daryti tam tikrus veiksmus
+    -->
+    <div ng-controller='myCtrl'>
+       <h1>{{pirmas}}</h1>
+    </div>
+  
+   <!-- tam ir naudojami tie kontroleriai del patogumo, matome, kad cia jau tas {{hello}} bus nepasiekiamas... (jis bendradarbiaujamas, tik kotrolerio viduje )
+    -->
+    <h1>{{pirmas}}</h1> blablabla
+
+   <!-- ANTRAS -->
+
+<br>
+<br>
+    <div ng-controller='myCtrl'>
+      <h1>{{antras}}</h1>
+       <input type='text' ng-model='myBook'> <br>
+       {{myBook}}
+    </div>
+
+  </body>
+</html>
