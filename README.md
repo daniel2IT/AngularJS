@@ -1,5 +1,5 @@
 <h1 align="center">
- AngularJS
+ <b>AngularJS</b>
 </h1>
 
 ![AngularJS](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/1200px-AngularJS_logo.svg.png)
