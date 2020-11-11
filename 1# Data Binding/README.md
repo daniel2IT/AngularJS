@@ -25,7 +25,7 @@ In this part, I'll write hello world in AngularJS.
    	   {{"Hello" + "World"}} <br>
    	   	<!--ng-model ir jame kintamasis kuris bus subindintas(priristas)-->
    	   		<!--Two-way Binding-->
-   	   <input type="text" ng-model="hello"> <br>
+   	   <input type="text" ng-model="hello"> <br> 	<!--0000000 -> pats prirasiau -->
 
    	    {{hello + " world"}} <br>
    	    
