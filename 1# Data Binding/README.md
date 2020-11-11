@@ -9,8 +9,8 @@ In this part, I'll write hello world in AngularJS.
 Он позволяет связывать шаблон с данными приложения с помощью
 {{двойных фигурных скобок}}.
 
- ![Test Image 3](../Download.png)
+ ![Test Image 3](img/Download.png)
  
-  ![Test Image 3](../Download2.png)
+  ![Test Image 3](img/Download2.png)
   
-   ![Test Image 3](../Download3.png)
+   ![Test Image 3](img/Download3.png)
