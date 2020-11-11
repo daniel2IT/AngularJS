@@ -2,6 +2,8 @@
 
 ![AngularJS](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/1200px-AngularJS_logo.svg.png)
 
+--
+
 #### AngularJS is a very powerful JavaScript Framework. It is used in Single Page Application (SPA) projects. It extends HTML DOM with additional attributes and makes it more responsive to user actions. 
 
 # Why to Learn AngularJS?
