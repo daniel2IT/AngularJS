@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app='app'> <!--Musu aplikacija vadinsis app ir visus kitus parametrus mes siesim su juom-->
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+  <body>
+  
+        <div ng-controller='firstController'>
+        	{{hello}} <br> <br>
+        	{{getBookmark()}} <br><br>
+
+        	<!-- ng-click - funkcija kuri bus iskvieciama po paspaudimo -->  
+        	<button ng-click='setHello("Iskvieciama funkcija ir jinai pakeicia hello kintojo reiksme i nurodyta vat cia kaip text kintamasis")'> Paspausk_Mane_Kad_Iskviesti_Funkcija </button>
+
+        	<button ng-click='setHello("Tas pats pakeitimas bet jau su kitokia reiksme cia viduje")'>
+        		Na ir gali paspausti mane
+        	</button> <br>
+
+        	{{myFactory.hello()}}
+    	</div>
+
+  </body>
+</html>

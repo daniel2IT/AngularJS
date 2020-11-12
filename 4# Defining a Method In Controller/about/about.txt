@@ -1,0 +1,9 @@
+For any single page application, we need methods,
+which will be available to us both in the template and in the controller.
+In this lesson, we will learn how to describe the method in scoped.
+This method will bind the controller to the template and automatically update the data change.
+
+Для любого одностраничного приложения нам понадобятся методы,
+которые будут нам доступны как в шаблоне, так и в контроллере. 
+В этом уроке мы научимся описывать метод в скоупе. 
+Этот метод будет связывать контроллер с шаблоном и автоматически обновлять изменение данных.
