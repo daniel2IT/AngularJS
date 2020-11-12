@@ -1,0 +1,8 @@
+Today we will figure out how to make nested controllers
+Why do we need this?
+This makes it very easy for us to access the methods of the parent controller from the child.
+
+
+Сегодня мы с вами разберем как делать nested контроллеры или, по русски, 
+вложенные контроллеры. Зачем это нам нужно?
+ Это дает нам возможность очень легко получить доступ к методам родительского контроллера из дочернего.

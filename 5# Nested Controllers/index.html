@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app='app'> <!--Musu aplikacija vadinsis app ir visus kitus parametrus mes siesim su juom-->
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+  <body>
+        <!--Tevo(Parent) Kontroleris-->
+       <div ng-controller='myBooksController'>
+     
+        <!--Vaikai-->
+         <div ng-controller='angularBookController'>
+            <button ng-click='showBook()'>
+             Show AngularChildBook 
+            </button> 
+         </div>
+          <div ng-controller='emberBookController'>
+              <button ng-click='showBook()'>
+             Show EmberChildBook 
+            </button> 
+         </div>
+
+
+       </div>
+
+  </body>
+</html>
