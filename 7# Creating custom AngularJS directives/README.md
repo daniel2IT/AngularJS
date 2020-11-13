@@ -36,7 +36,7 @@ return function(scope, element, attrs){
 console.log("This is my short Directive");
 }; /* End of Short variable */
 
-}); /* End of */
+}); /* End of app.directive('div.element.for.js', function()*/
 ```
 ### Vat dabar Defaultinis, dazniausiai naudojamas variantas tie patys html duomenys
  ```javascript
