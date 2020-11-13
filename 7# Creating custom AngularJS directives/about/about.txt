@@ -1,0 +1,8 @@
+Directives it's one of AngularJS features.
+They allow you to create reusable html elements
+with your own logic inside.
+
+
+Директивы это киллер фича AngularJS.
+Они позволяют создавать многоразовые html
+елементы с своей собственной логикой внутри.
