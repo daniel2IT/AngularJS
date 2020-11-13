@@ -1,4 +1,4 @@
-# Controller as Syntax
+# Controller 'as' Syntax
 
 
 In the usual AngularJS approach, it is often unclear in the
