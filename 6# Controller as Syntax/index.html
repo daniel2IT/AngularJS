@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app='app'> <!--Musu aplikacija vadinsis app ir visus kitus parametrus mes siesim su juom-->
+<head>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+  <body>
+      <!-- Dar karta, viska ka turi vaikai viduje - turi ir tevas -->
+       <!-- Bet nevisada tai gerai nes mes kai iskvieciam ta funkcija, nezinome is kur ji atsirado ir kad suzinoti naudojamas as -->
+       <div ng-controller="mainController"> 
+              <!--Nematomas nes yra skirtas as MusuAs2 kontroleriui -->
+          {{MusuAs2.myLessonForMethod22222}}
+          {{MusuAs2.myLessonForMethod22222}}
+          {{MusuAs2.myLessonForMethod22222}}
+          {{MusuAs2.myLessonForMethod22222}}
+          {{MusuAs2.myLessonForMethod22222}}
+          {{MusuAs2.myLessonForMethod22222}}
+       <!--as .. tai reiskia kad sablone atsiranda tas vardaitis po as 
+        ir dabar yra galimybe naudoti ne $Scope javascript(-e), o butent .this ...  -->
+        <div ng-controller="ChildController as MusuAs2">
+         <div ng-controller="ChildChildController as MusuAs3">
+            {{mainController.myLessonForMethod}} <br>
+            {{MusuAs2.myLessonForMethod22222}} <!-- as {vardaitis} yra unikalus --><br>
+            {{MusuAs3.myLessonForMethod}} <br>
+
+            <button ng-click="mainController.addLesson()"> Add lesson</button> 
+         </div>   <!-- END ChildChildController -->
+        </div> <!-- END ChildController -->
+       </div> <!-- END mainController -->
+
+  </body>
+</html>
