@@ -1,0 +1,7 @@
+Angular filters are another entity that allows you to manipulate data in output.
+ In order to change the format of the output of currency units or add a $ sign, 
+it makes no sense to use the controller method. There are filters for this.
+
+Фильтры в ангулар - это еще одна сущность, которая позволяет манипулировать данными при выводе.
+Для того, чтобы поменять формат вывода денежных единиц или добавить знак $ не имеет смысла 
+использовать метод контроллера. Для этого существуют фильтры.
