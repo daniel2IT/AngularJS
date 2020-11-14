@@ -1,0 +1,7 @@
+Angular directives can be created using elements, 
+attributes, classes and comments.
+ In this tutorial we will analyze when and what constraints should be used.
+
+Директивы в ангулар могут создаваться с помощью элементов, атрибутов,
+классов и комментариев. В этом уроке мы разберем когда и какие
+ограничения стоит использовать.
