@@ -1,0 +1,8 @@
+Transclude is the ability to use the original directive content anywhere
+ in our template. In this tutorial, we will learn how to do this 
+using both the ng-transclude tag and the transclude function.
+
+Transclude - это возможность использовать первоначальное
+содержимое директивы в любом месте нашего шаблона.
+В этом уроке мы научимся делать это как с помощью тега ng-transclude,
+так и с помощью функции transclude.
