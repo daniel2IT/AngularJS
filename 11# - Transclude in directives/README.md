@@ -15,6 +15,7 @@ Transclude - это возможность использовать первон
 ![Test Image 3](img/1.png)
 ## Transclude pajungimas su ng-transclude direktiva
 ![Test Image 3](img/2.png)
+## ```html <br> ``` + perejimas
 ![Test Image 3](img/3.png)
 ![Test Image 3](img/4.png)
 ![Test Image 3](img/5.png)
