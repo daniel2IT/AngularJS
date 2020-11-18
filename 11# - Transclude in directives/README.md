@@ -13,13 +13,13 @@ Transclude - это возможность использовать первон
 
 ## Direktivos tekstas nera matomas...
 ![Test Image 3](img/1.png)
-## Transclude pajungimas su ```javascript ng-transclude``` direktiva
+## Transclude pajungimas su ```javascript ng-transclude``` direktyva
 ![Test Image 3](img/2.png)
 ## ```html <br> ``` + perejimas
 ![Test Image 3](img/3.png)
-## Kontrolerio pridejimas... ir jo panaudojamumas u Scope  su ```javascript ng-transclude``` direktiva
+## Kontrolerio pridejimas... ir jo panaudojamumas u Scope  su ```javascript ng-transclude``` direktyva
 ![Test Image 3](img/4.png)
-## 
+## Transclude funkcijos panaudojimas
 ![Test Image 3](img/5.png)
 
 
