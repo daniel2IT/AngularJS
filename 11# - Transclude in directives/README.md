@@ -11,7 +11,9 @@ Transclude - это возможность использовать первон
 
 # General
 
+## Direktivos tekstas nera matomas...
 ![Test Image 3](img/1.png)
+## Transclude pajungimas su ng-transclude direktiva
 ![Test Image 3](img/2.png)
 ![Test Image 3](img/3.png)
 ![Test Image 3](img/4.png)
