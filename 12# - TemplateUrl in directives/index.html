@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app='app'> <!--Musu aplikacija vadinsis app ir visus kitus parametrus mes siesim su juom-->
+  <head>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+
+  	<musu-directive></musu-directive>
+ 
+  	<script type="text/ng-template" id="bookmarks.html">
+  		
+  	<div ng-repeat="bookmark in bookmarks"> {{bookmark.name}}
+  	</div>
+  	  	<div ng-repeat="bookmark in bookmarks"> {{bookmark.name}}
+  	</div>
+  	 <div ng-repeat="bookmark in bookmarks"> {{bookmark.name}}
+  	</div>
+
+  	</script>
+  </body>
+</html>
